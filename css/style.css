@@ -1,9 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 6 version
+*/
+
 body {
 	position: relative;
 	width: 1920px;
 	height: 11047px;
 	margin: 0 auto;
-
 	background: #FFFFFF;
 }
 .container .logo .topmenu .button nav h3 {
@@ -382,7 +388,9 @@ nav h3 {
 	top: 3020px;
 	left: 510px;
 	border: 1px solid #D8D8D8;
-	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	    -ms-transform: rotate(-90deg);
+	        transform: rotate(-90deg);
 }
 .aboutline2 {
 	position: absolute;
@@ -391,7 +399,9 @@ nav h3 {
 	top: 3020px;
 	left: 768px;
 	border: 1px solid #D8D8D8;
-	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	    -ms-transform: rotate(-90deg);
+	        transform: rotate(-90deg);
 }
 .line2 {
 	position: absolute;
@@ -421,9 +431,16 @@ nav h3 {
 .paybox1 {
 	position: absolute;
 	display: inline-block;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	padding: 0px;
 	gap: 10px;
 	width: 919px;
@@ -436,9 +453,16 @@ nav h3 {
 .paybox2 {
 	position: absolute;
 	display: inline-block;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	padding: 0px;
 	gap: 10px;
 	width: 438px;
@@ -451,9 +475,16 @@ nav h3 {
 .paybox3 {
 	position: absolute;
 	display: inline-block;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	padding: 0px;
 	gap: 10px;
 	width: 438px;
@@ -466,9 +497,16 @@ nav h3 {
 .paybox4 {
 	position: absolute;
 	display: inline-block;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	padding: 0px;
 	gap: 10px;
 	width: 438px;
@@ -481,9 +519,16 @@ nav h3 {
 .paybox5 {
 	position: absolute;
 	display: inline-block;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	padding: 0px;
 	gap: 10px;
 	width: 438px;
@@ -684,9 +729,16 @@ nav h3 {
 }
 .reviewcard .testimonial1 {
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	padding: 70px 105px;
 	gap: 10px;
 	width: 1020px;
@@ -707,9 +759,16 @@ nav h3 {
 }
 .reviewcard .testimonial3 {
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	padding: 70px 105px;
 	gap: 10px;	
 	width: 1020px;
@@ -1041,9 +1100,16 @@ nav h3 {
 }
 .basic > .background {
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	padding: 44px 45px;
 	gap: 10px;
 	width: 438px;
@@ -1088,9 +1154,16 @@ nav h3 {
 }
 .basic > .basicinfo {
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	padding: 8px 74px 8px 36px;
 	gap: 10px;	
 	width: 348px;
@@ -1115,10 +1188,19 @@ nav h3 {
 }
 .basic > .button {
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding: 25px 111px 26px;
 	gap: 10px;
 	width: 346px;
@@ -1144,9 +1226,16 @@ nav h3 {
 }
 .standard > .background {
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	padding: 44px 45px;
 	gap: 10px;
 	width: 438px;
@@ -1191,9 +1280,16 @@ nav h3 {
 }
 .standard > .standardinfo {
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	padding: 8px 74px 8px 36px;
 	gap: 10px;	
 	width: 348px;
@@ -1218,10 +1314,19 @@ nav h3 {
 }
 .standard > .button {
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding: 25px 111px 26px;
 	gap: 10px;
 	width: 346px;
@@ -1247,9 +1352,16 @@ nav h3 {
 }
 .premium > .background {
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	padding: 44px 45px;
 	gap: 10px;
 	width: 438px;
@@ -1294,9 +1406,16 @@ nav h3 {
 }
 .premium  > .standardinfo {
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	padding: 8px 74px 8px 36px;
 	gap: 10px;	
 	width: 348px;
@@ -1321,10 +1440,19 @@ nav h3 {
 }
 .premium  > .button {
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding: 25px 111px 26px;
 	gap: 10px;
 	width: 346px;
@@ -1352,9 +1480,16 @@ nav h3 {
 /* --------footer-------- */
 
 .footerback {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	padding: 0px 174px;
 	gap: 10px;
 	position: absolute;
@@ -1387,9 +1522,16 @@ nav h3 {
 }
 .footerback .social {
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding: 0px;
 	gap: 27px;
 	width: 222.48px;
@@ -1405,7 +1547,9 @@ nav h3 {
 	top: 390px;
 	left: 570px;
 	border: 1px solid #C4C4C4;
-	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	    -ms-transform: rotate(90deg);
+	        transform: rotate(90deg);
 }
 .footerback h3 {
 	position: absolute;
@@ -1429,10 +1573,19 @@ nav h3 {
 }
 .footerback .getaquote {
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding: 13px 29px 14px;
 	gap: 10px;
 	width: 185px;
@@ -1565,10 +1718,19 @@ nav h3 {
 }
 .ftbackground .subscribe {
 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding: 25px 59px 26px;
 	gap: 10px;
 	width: 220px;
